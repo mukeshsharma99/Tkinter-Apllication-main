@@ -20,3 +20,6 @@ win.config(bg='lightblue')
 
 heading = Label(win, text='My To-Do List', font=('Helvetica', 18, 'bold'), bg='lightblue')
 heading.pack(pady=10)
+
+task_entry = Entry(win, font=('Helvetica', 14), width=30)
+task_entry.pack(pady=10)
