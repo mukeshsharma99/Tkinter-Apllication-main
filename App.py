@@ -1,12 +1,7 @@
 from tkinter import *
 
-win = Tk()
-
-
-win.title('My first apllication ')
-
-win.geometry('600x400+100-100')
-win.mainloop()
-
-
-
+def add_task():
+    task = task_entry.get()
+    if task != "":
+        listbox.insert(END, task)
+        task_entry.delete(0, END)
