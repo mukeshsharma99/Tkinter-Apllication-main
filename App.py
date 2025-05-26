@@ -23,3 +23,6 @@ heading.pack(pady=10)
 
 task_entry = Entry(win, font=('Helvetica', 14), width=30)
 task_entry.pack(pady=10)
+
+add_btn = Button(win, text='Add Task', command=add_task, font=('Helvetica', 12))
+add_btn.pack(pady=5)
