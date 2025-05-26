@@ -26,3 +26,13 @@ task_entry.pack(pady=10)
 
 add_btn = Button(win, text='Add Task', command=add_task, font=('Helvetica', 12))
 add_btn.pack(pady=5)
+
+
+delete_btn = Button(win, text='Delete Selected Task', command=delete_task, font=('Helvetica', 12))
+delete_btn.pack(pady=5)
+
+# Listbox to display tasks
+listbox = Listbox(win, width=50, height=10, font=('Helvetica', 12))
+listbox.pack(pady=20)
+
+win.mainloop()
