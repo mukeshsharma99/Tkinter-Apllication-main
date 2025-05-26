@@ -5,3 +5,11 @@ def add_task():
     if task != "":
         listbox.insert(END, task)
         task_entry.delete(0, END)
+
+def delete_task():
+    try:
+        selected = Listbox.curselection()[0]
+        Listbox.delete(selected)
+    except IndexError:
+        pass
+    
