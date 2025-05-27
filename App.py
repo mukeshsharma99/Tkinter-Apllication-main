@@ -1,6 +1,6 @@
 from tkinter import *
 
-# Function to add tasks
+# Function to adding tasks
 def add_task():
     task = task_entry.get()
     if task != "":
