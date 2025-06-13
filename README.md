@@ -11,7 +11,7 @@ A basic desktop GUI application built using Python's Tkinter library. This app i
 Make sure you have Python installed on your system. Then:
 
 ```bash 
-python main.py
+python main.py 
 ```
 
 ## ✅ Features
