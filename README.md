@@ -8,7 +8,7 @@ A basic desktop GUI application built using Python's Tkinter library. This app i
 
 ## ▶️ How to Run
 
-Make sure you have Python installed on your system. Then:
+Make sure you have Python installed on your system. Then: 
 
 ```bash 
 python main.py 
