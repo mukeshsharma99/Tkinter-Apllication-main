@@ -3,7 +3,7 @@
 A basic desktop GUI application built using Python's Tkinter library. This app is a great starting point for beginners to understand GUI development in Python.
   
 ## 📁 Files 
-
+ 
 * `main.py` – Main script that launches the Tkinter GUI   
    
 ## ▶️ How to Run
