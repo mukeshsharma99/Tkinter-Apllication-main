@@ -4,7 +4,7 @@ A basic desktop GUI application built using Python's Tkinter library. This app i
    
 ## 📁 Files 
  
-* `main.py` – Main script that launches the Tkinter GUI   
+* `main.py` – Main script that launches the Tkinter GUI      
    
 ## ▶️ How to Run
 
